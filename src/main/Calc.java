@@ -12,6 +12,7 @@ public class Calc {
     }
 
     public int add(String text){
+        //return 0 with empty string
         if(text.isEmpty()) {
             return 0;
         }
